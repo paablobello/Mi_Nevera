@@ -1,1 +1,1 @@
-# DM2_RECETAS-DE-NEVERA
+App para Android programada en Android Studio para poder generar recetas a partir de los productos que añadas a tu nevera. Las recetas se realizan a traves de la api de GPT, para que funcione hay que poner un api key valida en el archivo Config. Tiene otras funcionalidades como la creacion de perfil una vez iniciada sesion y tambien un apartado para tu lista de la compra.
