@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mi_nevera</string>
+    <string name="ver_calorias">Ver Calorías</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="singin">Sing-In</string>
+    <string name="hint_username">Enter username</string>
+    <string name="hint_password">Enter password</string>
+    <string name="hint_email">Enter email</string>
+    <string name="login">Log-In</string>
+    <string name="bienve_message">Bienvenido a Mi Nevera</string>
+    <string name="cargando">Iniciando la app...</string>
+    <string name="btnRegistro">Registrarse</string>
+    <string name="sugerirRecetas">Sugerir Recetas</string>
+    <string name="password_erroneo">La contraseña debe tener entre 3 y 30 letras (a-zA-Z) o números</string>
+    <string name="username_erroneo">El alias debe tener entre 3 y 30 letras (a-zA-Z) o números</string>
+    <string name="email_erroneo">El email no es valido</string>
+    <string name="loginTEXT">Iniciar Sesión</string>
+    <string name="login_OK">Sesión iniciada correctamente</string>
+    <string name="bd_err">Error en la BD, intentelo de nuevo</string>
+    <string name="campos_KO">Campos inválidos</string>
+    <string name="username_duplicate">Username repetido</string>
+    <string name="email_duplicate">Email repetido</string>
+    <string name="registro_OK">Registro correcto</string>
+
+</resources>

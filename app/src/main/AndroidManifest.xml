@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icono_limpio"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeMaterial"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.ActividadCarga"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--Actividdad lista recetas-->
+        <activity
+            android:name=".ui.ActividadReceta">
+        </activity>
+
+        <!--Actividdad lista recetas para MAINACTIVITY_2 -->
+        <activity
+            android:name=".ui.ActividadListaRecetas">
+        </activity>
+
+        <!--Actividdad nevera-->
+        <activity android:name=".ui.ActividadNevera"></activity>
+
+        <!--Actividdad añadir-->
+        <activity android:name=".ui.ActividadAñadir"></activity>
+
+        <!--Actividdad perfil-->
+        <activity android:name=".ui.ActividadPerfil"></activity>
+
+        <!--Actividdad kcal-->
+        <activity android:name=".ActividadKcal"></activity>
+
+        <!--Actividdad compra-->
+        <activity android:name=".ui.ActividadCompra"></activity>
+
+        <!--Actividdad login-->
+        <activity android:name=".ui.ActividadLogin"></activity>
+
+        <!--Actividdad registro-->
+        <activity android:name=".ui.ActividadRegister"></activity>
+
+        <!--Actividdad inicial-->
+        <activity android:name=".ui.ActividadInicial"></activity>
+
+        <activity android:name=".ui.MainActivity"></activity>
+
+        <activity android:name=".ui.ActividadAbout"></activity>
+
+    </application>
+
+</manifest>
